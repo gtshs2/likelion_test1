@@ -1,0 +1,109 @@
+<!DOCTYPE html> 
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<head> <!-- All of the document type(format, author, ...  -->
+<meta charset="utf-8">
+<title>Likelion Test1 </title> <!-- the name of the document  -->
+<style type="text/css">
+#mainContent {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-large;
+	font-weight: bold;
+	background-color: #E3F0FB;
+	border-radius: 4px;
+	padding: 10px;
+	text-align: center;
+}
+.buttonStyle {
+	border-radius: 4px;
+	border: thin solid #F0E020;
+	padding: 5px;
+	background-color: #F8F094;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	color: #663300;
+	width: 75px;
+}
+
+.buttonStyle:hover {
+	border: thin solid #FFCC00;
+	background-color: #FCF9D6;
+	color: #996633;
+	cursor: pointer;
+}
+.buttonStyle:active {
+	border: thin solid #99CC00;
+	background-color: #F5FFD2;
+	color: #669900;
+	cursor: pointer;
+}
+
+</style>
+</head>
+
+<body>
+    <table border="1">
+    <tr>
+        <td height="100" width=800><font size="5"><b>주간 히트 노래</b></font></td>
+        <td height="100" width=800><font size="5"><b>주간 히트 영상</b></font></td>
+        <td height="100" width=800><font size="5"><b>회원 가입!</b></font></td>
+    </tr>
+    
+    <tr>
+        <td width=20%> 
+            <ol>
+                <li><img src="img_repo/img1.jpg" height="40" width="40"> <u>노래1</u> </li>
+                <li><img src="img_repo/img2.jpg" height="40" width="40"> <u>노래2</u> </li>
+                <li><img src="img_repo/img3.jpg" height="40" width="40"> <u>노래3</u> </li>
+                <li><img src="img_repo/img4.jpg" height="40" width="40"> <u>노래4</u> </li>
+                <li><img src="img_repo/img5.jpg" height="40" width="40"> <u>노래5</u> </li>
+            </ol>
+            <audio controls>
+                <source src="sound_repo/34ex1.mp3" type="audio/mpeg">
+            </audio>
+        </td>
+
+        <td width=50%> 
+            <video width="800" height="300" controls> 
+                <source src="sound_repo/411.mp4" type="video/mp4">
+            </video>
+        </td>
+        <div>
+        <td width=30%>
+            <form>
+                이름: <input type="text" name="name"> <br />
+                아이디: <input type="id" name="id"> <br />
+                연락처: <input type="tel" name="tel" size="4">-<input type="tel" name="tel" size="4">-<input type="tel" name="tel" size="4"> <br />
+                성별구분: 
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="female">남</label>
+                <input type="radio" name="gender" id="male" value="female">
+                <label for="other">여</label> <br>
+                사용언어: 
+                <input type="checkbox" name="gender" id="male" value="male">
+                <label for="female">한글</label>
+                <input type="checkbox" name="gender" id="male" value="female">
+                <label for="other">영어</label>
+                <input type="checkbox" name="gender" id="male" value="male">
+                <label for="female">일어</label>
+                <input type="checkbox" name="gender" id="male" value="female">
+                <label for="other">중국어</label> <br>
+
+                국적:
+                   <select>
+                         <option value="ko" selected> Korean </option>
+                         <option value="jp" > Japanese </ option>
+                         <option value="en" > English </ option>
+                         <option value="ch" > chinese </option>
+                         <option value="fr" > french </option>
+                   </select> <br><br><br>
+               <input type="submit" value="Submit">
+            </form>
+        </td>
+        </div>
+    </tr>
+    </table>
+
+</body>
+</html>
